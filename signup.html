@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/sign.css">
+    <title>SignUp</title>
+</head>
+<body class="bg-dark">
+  
+  
+  <div class="container center">
+  <div class="row">  
+    <div class="col-md-8 col-lg-8 align-self-center bg-dark ">
+      <div class="card border-warning bg-dark text-warning m-3">
+        
+          <div class="card-header border-warning">
+            <h3 class="mb-0 my-2 text-center">Sign Up</h3>
+        </div>
+        <div class="card-body ">
+          <form action="">
+            <div class="form-row ml-2 mr-2">
+            <div class="form-group col-6 ml-6">
+                <label for="inputID">ID</label>
+                  <input type="number" class="form-control" id="inputID" placeholder="ID">            
+            </div>
+    
+            <div class="form-group col-6 ml-6">
+                <label for="inputName">Name</label>
+                <input type="text" class="form-control" id="inputName" placeholder="full name" >
+            </div>
+          </div>
+    
+          <div class="form-row ml-2 mr-2">
+              <div class="form-group col-6 ml-6">
+                <label for="inputEmail3">Email</label>
+                <input type="email" class="form-control" id="inputEmail3" placeholder="email@gmail.com" required="">
+              </div>
+    
+            <div class="form-group col-6 ml-6">
+              <label for="inputPassword3">Password</label>
+              <input type="password" class="form-control" id="inputPassword3" placeholder="password" title="At least 6 characters with letters and numbers" required="">
+          
+            </div>
+          </div>
+    
+            <div class="form-row ml-2 mr-2">
+    
+              <div class="form-group col-6 ml-6">
+                <label for="inputAge">Age</label>
+                <input type="number" class="form-control" id="inputAge" placeholder="Age">
+              </div>
+    
+              
+              <div class="form-group col-6 ml-6">
+                <div class="form-check-inline mt-4">
+                  <label class="form-check-label mr-4" >Gender  :</label>
+                  <input class="form-check-input " type="radio" name="exampleRadios" id="Male" value="option1" >
+                  <label class="form-check-label mr-4" for="Male">Male</label>
+                  <input class="form-check-input " type="radio" name="exampleRadios" id="Female" value="option2" >
+                  <label class="form-check-label" for="Female">Female</label>
+                </div>
+    
+              </div>
+            </div>
+        <div class="form-row ml-2 mr-2">
+    
+            <div class="form-group col-6 ml-6">
+              <label for="inputAddress">Collage Address</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            
+
+        </div>
+        <div class="form-row ml-2 mr-2">
+          <div class="form-group col-4 ml-6">
+            <div class="form-group">
+              <label for="Branch">Branch :   </label>
+              <select class="ml-4"name="Branch" id="Branch" required> 
+              <option value="" disabled selected></option>
+              <option value="CSE">CSE</option>
+              <option value="ECE">ECE</option>
+              <option value="EEE">EEE</option>
+              <option value="AEI">AEI</option>
+              </select>
+          </div>
+        </div>
+        <div class="form-group col-8 ml-6">
+          <div class="from-group">
+            <label class="form-check-label" >Technical Skills  : </label>
+    
+            <div class="form-check-inline">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">C</label>
+            </div>
+            <div class="form-check-inline">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                <label class="form-check-label" for="defaultCheck2">Java</label>
+            </div>
+            <div class="form-check-inline">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+                <label class="form-check-label" for="defaultCheck3">Python</label>
+            </div>
+            <div class="form-check-inline">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
+                <label class="form-check-label" for="defaultCheck4">JSP</label>
+            </div>
+    
+          </div>
+        </div>
+      </div>  
+    
+        <div class="form-row ml-2 mr-2">
+          <div class="form-group col-2 ml-6">
+            <div class="form-group">          
+              <label for="resumeUpload">Resume :</label>          
+            </div>
+    
+          </div>
+          <div class="form-group col-6 ml-6">
+            <div class="form-group">       
+              <input type="file" class="form-control-file" id="resumeUplod">
+            </div>    
+          </div>
+        </div>
+    
+        <div class="form-row ml-2 mr-2">
+          <div class="form-group col-10 ml-6">
+            <div class="form-group" style="margin: 30px;" >
+                                        
+              <button type="submit" class="btn btn-success btn-lg float-right">Register</button>
+              <button type="reset" class="btn btn-danger btn-lg float-left">Reset</button>
+          </div>
+        </div>
+      </div>
+
+      </form>
+        </div>
+
+      </div>
+  
+    </div>
+  </div>
+</div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>

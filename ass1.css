@@ -1,0 +1,46 @@
+.topnav a:hover {
+    border-bottom: 3px solid white;
+}
+#nav1{
+    color: white;
+}
+
+
+/* Footer */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+
+#footer{
+    padding-top: 30px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+    color: white;
+    
+    
+    margin-bottom: 0%;
+}
+
+.about{
+    text-align: left;
+}
+.text-uppercase{
+    text-align: left;
+}
+
+.about a{
+    color: white;
+}
+
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
